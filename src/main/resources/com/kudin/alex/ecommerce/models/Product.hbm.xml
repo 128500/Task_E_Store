@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.kudin.alex.ecommerce.models">
+    <class name="Product" table="PRODUCTS">
+        <meta attribute="class-description">
+            This class contains information about a product.
+        </meta>
+        <id name="id" type="java.lang.Integer" column="product_id">
+            <generator class="native"/>
+        </id>
+        <property name="manufacturer" column="manufacturer" type="string"/>
+        <property name="type" column="type" type="string"/>
+        <property name="name" column="name" type="string"/>
+        <property name="code" column="code" type="java.lang.Long"/>
+        <property name="price" column="price" type="string"/>
+        <property name="description" column="description" type="string"/>
+
+    </class>
+
+</hibernate-mapping>

@@ -1,0 +1,37 @@
+body{
+    background-color: #e2f2be;
+    font-size: 20px;
+    color: #702908;
+}
+
+
+td{
+    background-color: #e2f2be;
+    color: #430505;
+    border: 2px solid #430505;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+
+th{
+    background-color: #ffdfe7;
+    color: #430505;
+    border: 2px solid #430505;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+table{
+    width: 90%;
+    padding: 10px;
+    display: table;
+}
+
+.no_border{
+    border-color: transparent;
+}
+
+

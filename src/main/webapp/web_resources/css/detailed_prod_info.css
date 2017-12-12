@@ -1,0 +1,29 @@
+body{
+    background-color: #f2ece4;
+    font-size: 20px;
+    color: #702908;
+
+}
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#btn{
+    background-color: #ddffcb;
+    color: #702908;
+    margin: auto;
+}
+#content{
+    display: table;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
